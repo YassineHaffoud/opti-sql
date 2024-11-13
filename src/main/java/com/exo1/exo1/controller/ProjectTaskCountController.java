@@ -22,3 +22,4 @@ public class ProjectTaskCountController {
         return ResponseEntity.ok(service.getTaskCountsByProject());
     }
 }
+
