@@ -9,7 +9,9 @@ import lombok.Setter;
 import java.util.Set;
 
 @Entity
-@Table(name = "users")
+@Table(
+        name = "users"
+)
 @Getter
 @Setter
 @AllArgsConstructor
